@@ -1,0 +1,185 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+}
+
+.Imagenes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Imagenes img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Contenedor FLEX-ROW: Un contenedor FLEX en FILA de altura y anchura al gusto del diseñador. 
+El espacio sobrante del contenedor se reparte horizontalmente entre cada dos elementos y estos quedan perfectamente centrados en vertical. */
+
+.FLEX-row {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.FLEX-row div:first-child {
+    background-color: #EAEAEA;
+}
+
+.FLEX-row div:last-child {
+    background-color: #EAEAEA;
+}
+
+.FLEX-row div {
+    width: auto;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Contenedor FLEX-COLUMN: Otro contenedor FLEX en COLUMNA de altura y anchura al gusto del diseñador. 
+Sus elementos flex tienen un tamaño establecido. El espacio sobrante del contenedor se reparte verticalmente alrededor de los elementos 
+y estos quedan centrados horizontalmente. */
+
+.FLEX-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    width: 50%;
+    height: 1150px;
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.FLEX-column div {
+    width: 60%;
+    text-align: center;
+    background-color: #EAEAEA;
+    padding: 10px;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.FLEX-column img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+/* Contenedor GRID1: Otro contenedor GRID de altura y anchura al gusto del diseñador y de la misma forma, 
+también el número de filas y columnas al gusto. Sus filas son a su vez contenedores flex de forma que sus 
+elementos están centrados en vertical y posicionados horizontalmente conforme a estética. */
+
+.GRID1 {
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.GRID1 .container-FLEX1 {
+    grid-area: 1 / 1 / 2 / 4;
+    font-size: x-large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+}
+
+.GRID1 .container-FLEX2 {
+    grid-area: 2 / 1 / 3 / 4;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-FLEX2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-FLEX2 a:hover {
+    color: rgb(117, 117, 117);
+}
+
+.container-FLEX2 a:active {
+    color: rgb(71, 82, 72);
+}
+
+/* Contenedor GRID2: Otro contenedor GRID de altura y anchura al gusto del diseñador y de la misma forma, también el número de filas y columnas al gusto. 
+Algunos de sus elementos grid tienen un tamaño que no ocupa toda la celda (tanto en alto como en ancho) y aparecen centrados tanto horizontal como 
+verticalmente en la celda. Otros elementos ocupan todo el tamaño de la celda. Sus columnas ocupan el 100% del grid y sus filas ocupan también el 100% del grid. */
+
+.GRID2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "uno dos" "tres cuatro" "cinco seis";
+    background-color: #F5F5F5;
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.GRID2 div img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.GRID2 #conceptos {
+    grid-area: uno;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.GRID2 #tutoriales {
+    grid-area: tres;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.GRID2 #recursos {
+    grid-area: cinco;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+

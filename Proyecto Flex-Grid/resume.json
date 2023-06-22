@@ -1,0 +1,136 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "",
+    "skills": "Competencias Digitales",
+    "projects": "Proyectos",
+    "awards": "Destrezas y Aptitudes",
+    "education": "Educación"
+  },
+  "basics": {
+    "name": "Ángel Muñoz Lozano",
+    "phone": "692 79 12 77",
+    "location": {
+      "address": "Sevilla, Andalucía"
+    },
+    "email": "alum.amunozl.2022@iesalixar.org",
+    "website": "https://github.com/amunozl2002"
+  },
+  "education": [
+    {
+      "institution": "IES Alixar",
+      "area": "Desarrollo de Aplicaciones Web",
+      "studyType": "Grado Superior",
+      "endDate": "2024",
+      "startDate": "2022",
+      "location": "Sevilla, Andalucía"
+    },
+    {
+      "institution": "Amazon Web Services",
+      "studyType": "AWS Certified Machine Learning– (MLS-C01)",
+      "endDate": "2024",
+      "startDate": "2023",
+      "location": "aws.amazon.com/certification"
+    },
+    {
+      "studyType": "AWS Certified Data Analytics – (DAS-C01)"
+    },
+    {
+      "institution": "Princeton University (Online)",
+      "location": "New Jersey, EEUU",
+      "studyType": "Computer Science:",
+      "area": " Algorithms, Theory, and Machines",
+      "endDate": " 2024",
+      "startDate": "2023"
+    }
+  ],
+  "work": [
+    {
+      "company": "",
+      "location": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python"
+      ],
+      "name": "Lenguajes de Programación"
+    },
+    {
+      "keywords": [
+        "MySQL",
+        "MongoDB",
+        "AWS "
+      ],
+      "name": "Bases de Datos"
+    },
+    {
+      "keywords": [
+        "Eclipse",
+        "IntelliJ",
+        "VSCode"
+      ],
+      "name": "IDEs"
+    },
+    {
+      "keywords": [
+        "Git",
+        "GitHub",
+        "BitBucket"
+      ],
+      "name": "Control de Versiones"
+    }
+  ],
+  "projects": [
+    {
+      "url": "",
+      "keywords": [
+        "Python",
+        "Redshift",
+        "Snowball",
+        "SageMaker",
+        "AWS",
+        "JavaScript"
+      ],
+      "name": "AWS Summit Madrid 2023",
+      "description": "Integración de servicios avanzados de Machine Learning en una de las bases de datos más grandes del mundo con el objetivo de desarrollar un modelo de predicción de resultados. Consolidación de todos los componentes de este modelo en una página web, dando la oportunidad de obtener predicciones precisas en tiempo real."
+    },
+    {
+      "keywords": [
+        "Java",
+        "MySQL Workbench",
+        "DBeaver",
+        "SQL Server Management Studio"
+      ],
+      "name": "Agencia de Transportes",
+      "description": "Migración y adaptación de la base de datos de una agencia de transportes (hecha en Google Spreadsheets) a una base de datos formal diseñada en MySQL, automatizando una gran parte de las tareas para aliviar la carga de trabajo. "
+    }
+  ],
+  "awards": [
+    {
+      "date": "",
+      "awarder": "",
+      "summary": "",
+      "title": "Desarrollo de programas aplicando características avanzadas de los lenguajes orientados a objetos y del entorno de programación"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "projects",
+    "skills",
+    "awards"
+  ]
+}
