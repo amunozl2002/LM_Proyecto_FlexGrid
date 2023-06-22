@@ -1,0 +1,130 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <meta name="author" content="Angel Muñoz Lozano">
+    <title>Proyecto de Informática</title>
+    <link rel="stylesheet" href="Muñoz_Lozano_Tradicional.css" type="text/css">
+</head>
+
+<body>
+    <!-- Menú de navegación sticky (Sección 1) -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#laptops">Laptops</a></li>
+            <li><a href="#escritorio">Computadoras de Escritorio</a></li>
+            <li><a href="#perifericos">Periféricos</a></li>
+            <li><a href="#accesorios">Accesorios</a></li>
+        </ul>
+    </nav>
+     <!-- Barra lateral (Sección 2) -->
+    <div class="sidebar">
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="#laptops">Laptops</a></li>
+            <li><a href="#escritorio">Computadoras de Escritorio</a></li>
+            <li><a href="#perifericos">Periféricos</a></li>
+            <li><a href="#accesorios">Accesorios</a></li>
+        </ul>
+    </div>
+    <!-- Parte principal con elementos superpuestos (Sección 3) -->
+    <div class="main-content">
+        <!-- Capa superpuesta con texto -->
+        <div class="overlay">
+            <h1>Bienvenido a nuestra tienda</h1>
+            <p>Encuentra los mejores productos informáticos</p>
+            <a href="#" class="button">Ver más</a>
+        </div>
+        <!-- Sección de portatiles (Sección 4) -->
+        <div id="laptops" class="category">
+            <h2>Laptops</h2>
+            <div class="columns">
+                <div class="column">
+                    <img src="portatil1.png" alt="Laptop 1">
+                    <h3>Portátil 1</h3>
+                    <p>Potente procesador, pantalla de alta resolución, almacenamiento amplio y portabilidad excepcional.</p>
+                </div>
+                <div class="column">
+                    <img src="portatil2.png" alt="Laptop 2">
+                    <h3>Portátil 2</h3>
+                    <p>Ultraligero y compacto, batería de larga duración, alta velocidad de carga y rendimiento excepcional.</p>
+                </div>
+            </div>
+        </div>
+         <!-- Sección de PCs de Escritorio (Sección 4) -->
+        <div id="escritorio" class="category">
+            <h2>Computadoras de Escritorio</h2>
+            <div class="columns">
+                <div class="column">
+                    <img src="pc1.png" alt="Computadora de Escritorio 1">
+                    <h3>Computadora de Escritorio 1</h3>
+                    <p>Potente procesador, amplia capacidad de almacenamiento, gráficos de alta calidad y múltiples puertos de conectividad.</p>
+                </div>
+                <div class="column">
+                    <img src="pc2.png" alt="Computadora de Escritorio 2">
+                    <h3>Computadora de Escritorio 2</h3>
+                    <p>Diseño elegante, rendimiento excepcional, memoria RAM ampliable y amplio espacio de almacenamiento.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de Periféricos (Sección 4) -->
+        <div id="perifericos" class="category">
+            <h2>Periféricos</h2>
+            <div class="columns">
+                <div class="column">
+                    <img src="raton1.png" alt="Periférico 1">
+                    <h3>Periférico 1</h3>
+                    <p>Preciso y ergonómico, con tecnología inalámbrica y botones programables.</p>
+                </div>
+                <div class="column">
+                    <img src="raton2.png" alt="Periférico 2">
+                    <h3>Periférico 2</h3>
+                    <p>Diseño elegante con iluminación RGB personalizable y sensor de alta precisión para un rendimiento óptimo.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de Accesorios (Sección 4) -->
+        <div id="accesorios" class="category">
+            <h2>Accesorios</h2>
+            <div class="columns">
+                <div class="column">
+                    <img src="accesorio1.png" alt="Accesorio 1">
+                    <h3>Accesorio 1</h3>
+                    <p>Descripción del Accesorio 1</p>
+                </div>
+                <div class="column">
+                    <img src="accesorio2.png" alt="Accesorio 2">
+                    <h3>Accesorio 2</h3>
+                    <p>Descripción del Accesorio 2</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sección de Mini Formulario (Sección 5) -->
+        <div class="mini-form">
+            <h2>Accede a la zona privada</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" placeholder="DNI" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <button type="submit">Acceder</button>
+            </form>
+        </div>
+        
+    </div>
+    <!-- Sección de Footer (Sección 6) -->
+    <footer>
+        <p>Derechos de Autor &copy; 2023 Tienda de Productos Informáticos</p>
+    </footer>
+</body>
+
+</html>
